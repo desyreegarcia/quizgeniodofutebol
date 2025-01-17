@@ -1,0 +1,39 @@
+*{ /*página inteira*/
+    margin: 5px;
+    padding: 10px;
+    font-family:'Lucida Sans';
+    background-color: #dadada;
+    text-align: center;
+}
+
+.button{ /*layout botão enviar*/
+    padding: 5px;
+    width: 30%;
+    background-color: #0919f3;
+    color: #F7F0EF;
+    font-size: xx-large;
+}
+
+.numero{ /*classe número da questão*/
+    padding: 5px;
+    font-size: xx-large;
+    width: 10%;
+}
+
+.button:hover{ /*ao passar o mouse no link*/
+    background-color: #cf0624;
+    transition: 0.5s;
+}
+
+input{
+    background-color: #dadada;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans';
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 8%;
+}
